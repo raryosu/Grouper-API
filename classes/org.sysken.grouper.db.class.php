@@ -57,7 +57,7 @@ class db
 
     if($password === NULL)
     {
-      $this -> password = 'grouper_server_tsuyama';
+      $this -> password = 'pass';
                           //ini_get('mysqli.default_pw');
     }else{
       $this -> password = $password;
@@ -65,7 +65,7 @@ class db
 
     if($db === NULL)
     {
-      $this -> db = 'Grouper_new';
+      $this -> db = 'Grouper';
     }else{
       $this -> db = $db;
     }
@@ -124,7 +124,7 @@ class db
     switch (mb_strtolower($type))
     {
       case 'insert':
-        $query .= "INSERT INTO Grouper_new.{$table} ( " . implode(array_keys($search), ', ') . ' ) VALUE ( ';
+        $query .= "INSERT INTO {$table} ( " . implode(array_keys($search), ', ') . ' ) VALUE ( ';
         foreach ($search as $key => $value)
         {
           $query .= "'" . self::security($value) . "',";
@@ -134,7 +134,7 @@ class db
         break;
 
       case 'select':
-        $query .= "SELECT * FROM Grouper_new.{$table} WHERE ";
+        $query .= "SELECT * FROM {$table} WHERE ";
         foreach($search as $key => $value)
         {
           $query .= "{$key} = '" . self::security($value) . "' AND " ;
