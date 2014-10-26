@@ -19,4 +19,5 @@ Zend Framework PHP 標準コーディング規約に原則的に則っていま�
 
 ## Lisence
 This software is released under the MIT License, see LICENSE.  
+Copyright&copy; 2014- STUDIO Hedgehog. and ryutaro. All Rights Reserved.  
 &copy; 2014 Ryosuke Hagihara
