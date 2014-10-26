@@ -4,6 +4,7 @@
  *
  * すべての処理で共通して利用する関数をまとめたクラスです。
  *
+ * @copyright Copyright&copy; 2014- STUDIO Hedgehog. All Rights Reserved.
  * @copyright &copy;2014 Ryosuke Hagihara <raryosu@sysken.org>
  * @version 0.3.5
  */
