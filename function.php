@@ -4,6 +4,7 @@
  *
  * Grouperの各種機能を提供します。(2014.08.25更新)
  *
+ * @copyright Copyright&copy; 2014- STUDIO Hedgehog. All Rights Reserved.
  * @copyright &copy; 2014 Ryosuke Hagihara
  * @create 2014/08/05
  * @auther Ryosuke Hagihara <raryosu@sysken.org>
