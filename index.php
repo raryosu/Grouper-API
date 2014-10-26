@@ -4,6 +4,7 @@
  *
  * index.phpです()
  *
+ * @copyright Copyright&copy; 2014- STUDIO Hedgehog. All Rights Reserved.
  * @copyright &copy; 2014 Ryosuke Hagihara
  * @create    2014.08.05
  * @auther    Ryosuke Hagihara<raryosu@sysken.org>
