@@ -149,7 +149,7 @@ class common
     $url = 'https://android.googleapis.com/gcm/send';
     $header = array(
                     'Content-Type: application/x-www-form-urlencoded;charset=UTF-8',
-                    'Authorization: key=AIzaSyDwMmyU5RHNn6NL8m_fGHvzaQaWB87HFFY'
+                    'Authorization: key=XXX'
                    );
     $msg = array('mode' => $mode, 'message' => $msg);
     // クソ
